@@ -4,5 +4,5 @@ class Car < Vehicle
 end
 
 
-honda = Car.new
-puts honda.go 
+honda = Car.new(150, 4)
+puts honda.go
