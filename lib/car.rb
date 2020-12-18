@@ -1,8 +1,8 @@
 require_relative "./vehicle.rb"
 
 class Car < Vehicle
-end 
+end
 
 
-honda = Car.new 
+honda = Car.new
 puts honda.go 
